@@ -1,0 +1,9 @@
+/* Form.css
+ * Author: Samuel Jackson (slj11@aber.ac.uk)
+ * Date: 29/3/13
+ * Description: Form styling sheet for a consistent look.
+ */
+
+#content input 		{padding: 10px; margin: 5px;}
+#content .text-box 	{width: 300px;}
+#content .button 	{min-width: 100px;}
