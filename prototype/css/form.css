@@ -13,7 +13,8 @@ form				{float:left; padding: 3px; margin-bottom: 20px;}
 #content textarea	{float: none; width: 580px; height: 150px; padding: 10px; margin: 5px;resize: none;}
 #content .text-box 	{width: 290px;}
 #content .checkbox 	{height: 40px;}
-#content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer;}
+#content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer; -moz-border-radius: 10px; border-radius: 10px;
+					-moz-border-radius: 10px; -moz-box-shadow: 2px 2px 2px #444;-webkit-box-shadow: 2px 2px 2px #444; box-shadow: 2px 2px 2px #444;}
 
 #content fieldset		{border: 1px solid #000;}
 #content fieldset label	{display: block; width: 150px; padding: 15px; float: left; display: block;}
