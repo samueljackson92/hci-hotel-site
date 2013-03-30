@@ -4,16 +4,16 @@
  * Description: Form styling sheet for a consistent look.
  */
 
-form				{float:left; padding: 3px;}
+form				{float:left; padding: 3px; margin-bottom: 20px;}
 #content legend		{font-weight: bold;}
 #content fieldset	{padding: 5px;}
 #content fieldset p {padding: 5px;}
 #content input,
 #content select		{padding: 10px; margin: 5px;}
-#content textarea	{float: none; width: 500px; height: 150px; padding: 10px; margin: 5px;}
-#content .text-box 	{width: 270px;}
+#content textarea	{float: none; width: 580px; height: 150px; padding: 10px; margin: 5px;resize: none;}
+#content .text-box 	{width: 290px;}
 #content .checkbox 	{height: 40px;}
-#content .button 	{width: 100px; white-space: normal;}
+#content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer;}
 
 #content fieldset		{border: 1px solid #000;}
 #content fieldset label	{display: block; width: 150px; padding: 15px; float: left; display: block;}
@@ -23,3 +23,9 @@ form				{float:left; padding: 3px;}
 #content table .short-text 	{width: 40px;}
 #content table thead 	{font-weight: bold;} 
 #content table td 		{padding: 10px; vertical-align: middle;}
+
+.centre-form 	{width: 500px; margin: 0 auto;}
+.date-picker 	{width: 500px;}
+.date-num	 	{width: 55px;}
+.date-month		{width: 125px;}
+.date-year		{width: 80px;}

@@ -11,7 +11,7 @@
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Admin Login</a></h1>
+			<h1><a href="index.html">Hotel Site - Register</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -67,29 +67,34 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="#">Register</a></div>
+				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Register</a></div>
 				<div id="form-content" class="centre-form">
 					<form>
 						<fieldset>
-							<legend>Client Registration</legend>
+							<legend>Traveller Registration</legend>
 							
 							<p>Not a member yet? Register!</p>
 							
-							<label for="reg-email">Hotel Name</label>
-							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
 							<label for="reg-email">Email Address</label>
 							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
 							<label for="reg-password">Password</label>
 							<input id="reg-password" type="password" class="text-box" value=""></input><br />
 							<label for="reg-password-confirm">Confirm Password</label>
-							<input id="reg-password-confirm" type="password" class="text-box" value=""></input><br />
+							<input id="reg-password-confirm" type="password" class="text-box" value=""></input><br /><br />
 
-							<label for="reg-type">Account Type</label>
-							<select id="reg-type" class="text-box">
-							  	<option value="1">Allocation</option>
-							  	<option value="2">Referral</option>
-							</select><br />
+							<label for="reg-address1">Address Line #1</label>
+							<input id="reg-address1" type="text" class="text-box" value=""></input><br />
+							<label for="reg-address2">Address Line #2</label>
+							<input id="reg-address2" type="text" class="text-box" value=""></input><br />
+							<label for="reg-town">Town</label>
+							<input id="reg-town" type="text" class="text-box" value=""></input><br />
+							<label for="reg-county">County</label>
+							<input id="reg-county" type="text" class="text-box" value=""></input><br />
+							<label for="reg-postcode">Post Code</label>
+							<input id="reg-postcode" type="text" class="text-box" value=""></input><br /><br />
 
+							<label for="reg-card">Card No.</label>
+							<input id="reg-card" type="text" class="text-box" value=""></input><br />
 
 							<input type="button" class="button" value="Register"></input>
 						</fieldset>

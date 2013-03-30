@@ -18,6 +18,7 @@
 				</span>
 				<span id="search-box">
 						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
 				</span>
 			</div>
 		</div>
@@ -29,7 +30,8 @@
 					<li>
 						<h4>Travellers</h4>
 						<ul id="traveller-nav" class="subnav">
-							<li><a href="traveller_login.html">Login/Register</a></li>
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
 							<li><a href="search.html">Search</a></li>
 							<li><a href="cart.html">View Cart</a></li>
 							<li><a href="traveller_account.html">View Account</a></li>
@@ -53,25 +55,35 @@
 						</ul>
 					</li>
 
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
 				</ul>
 				<!-- nav end -->
 			</div>
 			<div id="content">
 				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="client_account.html">Manage Account</a> &gt; <a href="#">Add Room</a></div>
-				<form>
-					<fieldset>
-						<p>Enter the details of the room.</p>
-						<legend>Add Room</legend>
-						<label for="room-name">Room Name</label>
-						<input id="room-name" type="text" class="text-box" value=""></input><br/>
-						<label for="room-size">Size</label>
-						<input id="room-size" type="text" class="text-box" value=""></input><br />
-						<label for="room-size">Avalible</label>
-						<input id="room-size" type="checkbox" class="checkbox"></input><br />
-						<input type="button" class="button" value="Add Room"></input>
-					</fieldset>
-				</form>
-			</div> 
+				<div id="form-content" class="centre-form">
+					<form>
+						<fieldset>
+							<p>Enter the details of the room.</p>
+							<legend>Add Room</legend>
+							<label for="room-name">Room Name</label>
+							<input id="room-name" type="text" class="text-box" value=""></input><br/>
+							<label for="room-size">Size</label>
+							<input id="room-size" type="text" class="text-box" value=""></input><br />
+							<label for="room-size">Avalible</label>
+							<input id="room-size" type="checkbox" class="checkbox"></input><br />
+							<input type="submit" class="button" formaction="client_account.html" value="Add Room"></input>
+						</fieldset>
+					</form>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

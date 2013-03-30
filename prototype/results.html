@@ -18,6 +18,7 @@
 				</span>
 				<span id="search-box">
 						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
 				</span>
 			</div>
 		</div>
@@ -29,7 +30,8 @@
 					<li>
 						<h4>Travellers</h4>
 						<ul id="traveller-nav" class="subnav">
-							<li><a href="traveller_login.html">Login/Register</a></li>
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
 							<li><a href="search.html">Search</a></li>
 							<li><a href="cart.html">View Cart</a></li>
 							<li><a href="traveller_account.html">View Account</a></li>
@@ -53,13 +55,23 @@
 						</ul>
 					</li>
 
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
 				</ul>
 				<!-- nav end -->
 			</div>
 			<div id="content">
 				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Search Results</a></div>
-				<h2>Search Results</h2>
-				<p>You currently have the following items in your cart. Click the proceed with booking button when ready to proceed with booking and payment.</p>
+				<div class="title-box">
+					<h2>Search Results</h2>
+					<p>You currently have the following items in your cart. Click the proceed with booking button when ready to proceed with booking and payment.</p>
+				</div>
 				<div class="button-bar">
 					<a class="button-link left" href="search.html">Refine Search</a>
 					<a class="button-link right" href="cart.html">View Cart</a>

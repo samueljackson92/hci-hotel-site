@@ -18,6 +18,7 @@
 				</span>
 				<span id="search-box">
 						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
 				</span>
 			</div>
 		</div>
@@ -29,7 +30,8 @@
 					<li>
 						<h4>Travellers</h4>
 						<ul id="traveller-nav" class="subnav">
-							<li><a href="traveller_login.html">Login/Register</a></li>
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
 							<li><a href="search.html">Search</a></li>
 							<li><a href="cart.html">View Cart</a></li>
 							<li><a href="traveller_account.html">View Account</a></li>
@@ -53,42 +55,54 @@
 						</ul>
 					</li>
 
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
 				</ul>
 				<!-- nav end -->
 			</div>
 			<div id="content">
 				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Account</a></div>
-				<h2>My Account</h2>
-				<p>Manage your account details.</p>
-				<div id="personal-details">
-					<form id="address">
-						<fieldset>
-							<legend>Address</legend>
-							<label for="reg-address1">Address Line #1</label>
-							<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
-							<label for="reg-address2">Address Line #2</label>
-							<input id="reg-address2" type="text" class="text-box" value="Sector 13"></input><br />
-							<label for="reg-town">Town</label>
-							<input id="reg-town" type="text" class="text-box" value="Aberystwyth"></input><br />
-							<label for="reg-county">County</label>
-							<input id="reg-county" type="text" class="text-box" value="Ceredigion"></input><br />
-							<label for="reg-postcode">Post Code</label>
-							<input id="reg-postcode" type="text" class="text-box" value="SY23 1AB"></input><br /><br />
+				<div class="title-box">
+					<h2>My Account</h2>
+					<p>Manage your account details.</p>
+				</div>
+				<div id="form-content" class="centre-form">
+					<div id="personal-details">
+						<form id="address">
+							<fieldset>
+								<legend>Address</legend>
+								<label for="reg-address1">Address Line #1</label>
+								<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
+								<label for="reg-address2">Address Line #2</label>
+								<input id="reg-address2" type="text" class="text-box" value="Sector 13"></input><br />
+								<label for="reg-town">Town</label>
+								<input id="reg-town" type="text" class="text-box" value="Aberystwyth"></input><br />
+								<label for="reg-county">County</label>
+								<input id="reg-county" type="text" class="text-box" value="Ceredigion"></input><br />
+								<label for="reg-postcode">Post Code</label>
+								<input id="reg-postcode" type="text" class="text-box" value="SY23 1AB"></input><br /><br />
 
-							<input type="button" class="button" value="Update"></input>
-						</fieldset>
-					</form>
-					<form id="address">
-						<fieldset>
-							<legend>Address</legend>
-							<span>
-							<label for="reg-address1">Card No.</label>
-							<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
-						</span>
+								<input type="button" class="button" value="Update"></input>
+							</fieldset>
+						</form>
+						<form id="card-details">
+							<fieldset>
+								<legend>Card Details</legend>
+								<span>
+								<label for="reg-card-no">Card No.</label>
+								<input id="reg-card-no" type="text" class="text-box" value="123 Fake Street"></input><br />
+							</span>
 
-							<input type="button" class="button" value="Update"></input>
-						</fieldset>
-					</form>
+								<input type="button" class="button" value="Update"></input>
+							</fieldset>
+						</form>
+					</div>
 				</div>
 			</div> 
 		</div>
