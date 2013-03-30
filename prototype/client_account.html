@@ -1,0 +1,114 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<title>Hotel Booking Site</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/column.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+	</head> 
+	<body>
+		<div id="header">
+			<h1><a href="index.html">Hotel Site - Manage Account</a></h1>
+			<div id="right-content">
+				<span id="login-ref">
+						Not logged in: <a id="login-button" href="#"> Sign In!</a>
+				</span>
+				<span id="search-box">
+						<input id="quick-search" type="text" value="Quick Search"></input>
+				</span>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			<div id="nav-box">
+				<!-- nav start -->
+				<ul id="nav">
+					<li><a href="index.html"><h4>Home</h4></a></li>
+					<li>
+						<h4>Travellers</h4>
+						<ul id="traveller-nav" class="subnav">
+							<li><a href="traveller_login.html">Login/Register</a></li>
+							<li><a href="search.html">Search</a></li>
+							<li><a href="cart.html">View Cart</a></li>
+							<li><a href="traveller_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Clients</h4>
+						<ul id="client-nav" class="subnav">
+							<li><a href="client_login.html">Login</a></li>
+							<li><a href="client_register.html">Register</a></li>
+							<li><a href="client_account.html">View Account</a></li>
+						</ul>
+					</li>
+			
+					<li>
+						<h4>Admin</h4>
+						<ul id="admin-nav" class="subnav">
+							<li><a href="admin_login.html">Login</a></li>
+							<li><a href="admin_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- nav end -->
+			</div>
+			<div id="content">
+				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="#">Manage Account</a></div>
+				<h2>My Hotel Name</h2>
+				<p>Here you can manage detials about your account with the hotel booking site.</p>
+				<div id="edit-description">
+					<form>
+						<fieldset>
+							<legend>Hotel Description</legend>
+							<textarea>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</textarea>
+							<div><input type="button" class="button" value="Update"></input></div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="tabular">
+					<form>
+						<fieldset>
+							<legend>Room Management</legend>
+							<table>
+								<thead><td>Room</td><td>Size</td><td>Avalible</td><td>Edit</td><td>Remove</td></thead>
+								<tr>
+									<td><input id="room-name" type="text" class="text-box" value="Honeymoon Suite"></input></td>
+									<td><input id="room-size" type="text" class="text-box short-text" value="2"></input></td>
+									<td><input type="checkbox" class="checkbox"></input></td>
+									<td><input class="button" type="button" value="Edit"></input></td>
+									<td><input class="button" type="button" value="Remove"></input></td>
+								</tr>
+								<tr>
+									<td><input id="room-name" type="text" class="text-box" value="Room 327"></input></td>
+									<td><input id="room-size" type="text" class="text-box short-text" value="1"></input></td>
+									<td><input type="checkbox" class="checkbox"></input></td>
+									<td><input class="button" type="button" value="Edit"></input></td>
+									<td><input class="button" type="button" value="Remove"></input></td>
+								</tr>
+								<tr>
+									<td><input id="room-name" type="text" class="text-box" value="Room 1408"></input></td>
+									<td><input id="room-size" type="text" class="text-box short-text" value="3"></input></td>
+									<td><input type="checkbox" class="checkbox"></input></td>
+									<td><input class="button" type="button" value="Edit"></input></td>
+									<td><input class="button" type="button" value="Remove"></input></td>
+								</tr>
+							</table>
+							<input class="button" type="submit" formaction="add_room.html" value="Add Room"></input>
+						</fieldset>
+					</form>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>

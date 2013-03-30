@@ -1,0 +1,25 @@
+/* Form.css
+ * Author: Samuel Jackson (slj11@aber.ac.uk)
+ * Date: 29/3/13
+ * Description: Form styling sheet for a consistent look.
+ */
+
+form				{float:left; padding: 3px;}
+#content legend		{font-weight: bold;}
+#content fieldset	{padding: 5px;}
+#content fieldset p {padding: 5px;}
+#content input,
+#content select		{padding: 10px; margin: 5px;}
+#content textarea	{float: none; width: 500px; height: 150px; padding: 10px; margin: 5px;}
+#content .text-box 	{width: 270px;}
+#content .checkbox 	{height: 40px;}
+#content .button 	{width: 100px; white-space: normal;}
+
+#content fieldset		{border: 1px solid #000;}
+#content fieldset label	{display: block; width: 150px; padding: 15px; float: left; display: block;}
+
+#content table 				{width: 510px;}
+#content table .text-box 	{width: 150px;}
+#content table .short-text 	{width: 40px;}
+#content table thead 	{font-weight: bold;} 
+#content table td 		{padding: 10px; vertical-align: middle;}

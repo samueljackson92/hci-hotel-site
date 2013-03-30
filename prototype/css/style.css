@@ -1,0 +1,65 @@
+/* Style.css
+ * Author: Samuel Jackson (slj11@aber.ac.uk)
+ * Date: 28/3/13
+ * Description: Main CSS for the Hotel Booking prototype site.
+ */
+
+/* Default global styles. */
+body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; width: 100%; min-width: 800px;}
+
+h1 	{font-size: 20pt;}
+h2 	{font-size: 18pt;}
+h3 	{font-size: 16pt;}
+h4 	{font-size: 14pt;}
+h5 	{font-size: 12pt;}
+h6 	{font-size: 10pt;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: bold; padding:5px 0px 5px 0px;}
+a {text-decoration: none; color: black;}
+
+/* Header styling */
+#header 	{height: 50px; background-color: #888;}
+#header h1 	{float: left; padding: 10px;}
+
+#header #right-content			{float: right; padding: 10px;}
+#header #right-content span 	{padding: 5px;}
+
+/* Nav bar styling */
+#nav-box {background-color: #AAA; float: left; padding: 15px; width: 135px;}
+
+#nav h4 {font-weight: bold;}
+.subnav {list-style-type: square; list-style-position: inside; margin-left: 15px;}
+
+/* content styling */
+#content 	{background-color: #CCC; padding: 15px; padding-left: 180px; min-width: 900px;}
+#content .item {margin: 30px 0px 30px 0px;}
+.item > * {padding: 5px;}
+
+
+#breadcrumb {font-weight: bold; padding: 10px; float: none; background-color: #777;}
+#breadcrumb a {text-decoration: underline;}
+
+.button-bar {width: 100%; height: 50px;}
+.button-link {background-color: #777; padding: 10px;  margin: 5px;}
+
+/* ----------------------- page specific ------------------------- */
+
+/* search.html */
+#form-content {margin-top: 20px;}
+
+/* view_cart.html */
+
+.account-request-type,
+.item-cost, #total-cost	{font-weight: bold; width: inherit; margin:10px 0px 15px 0px;}
+#total-cost {text-align: center;}
+.left 	{float: left;}
+.right 	{float: right;}
+
+
+
+#booking-details {width: 300px; height: 150px; margin:  0 auto;}
+#booking-details h5 {padding: 0px;}
+#edit-details {margin: 0 auto; text-align: center; height: 50px;}
+
+
+#edit-description {overflow: auto;}

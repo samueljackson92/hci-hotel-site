@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<title>Hotel Booking Site</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/column.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
+	</head> 
+	<body>
+		<div id="header">
+			<h1><a href="index.html">Hotel Site - Admin Login</a></h1>
+			<div id="right-content">
+				<span id="login-ref">
+						Not logged in: <a id="login-button" href="#"> Sign In!</a>
+				</span>
+				<span id="search-box">
+						<input id="quick-search" type="text" value="Quick Search"></input>
+				</span>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			<div id="nav-box">
+				<!-- nav start -->
+				<ul id="nav">
+					<li><a href="index.html"><h4>Home</h4></a></li>
+					<li>
+						<h4>Travellers</h4>
+						<ul id="traveller-nav" class="subnav">
+							<li><a href="traveller_login.html">Login/Register</a></li>
+							<li><a href="search.html">Search</a></li>
+							<li><a href="cart.html">View Cart</a></li>
+							<li><a href="traveller_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Clients</h4>
+						<ul id="client-nav" class="subnav">
+							<li><a href="client_login.html">Login</a></li>
+							<li><a href="client_register.html">Register</a></li>
+							<li><a href="client_account.html">View Account</a></li>
+						</ul>
+					</li>
+			
+					<li>
+						<h4>Admin</h4>
+						<ul id="admin-nav" class="subnav">
+							<li><a href="admin_login.html">Login</a></li>
+							<li><a href="admin_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- nav end -->
+			</div>
+			<div id="content">
+				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="#">Register</a></div>
+				<div id="form-content">
+					<form>
+						<fieldset>
+							<legend>Client Registration</legend>
+							
+							<p>Not a member yet? Register!</p>
+							
+							<label for="reg-email">Hotel Name</label>
+							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
+							<label for="reg-email">Email Address</label>
+							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
+							<label for="reg-password">Password</label>
+							<input id="reg-password" type="password" class="text-box" value=""></input><br />
+							<label for="reg-password-confirm">Confirm Password</label>
+							<input id="reg-password-confirm" type="password" class="text-box" value=""></input><br />
+
+							<label for="reg-type">Account Type</label>
+							<select id="reg-type" class="text-box">
+							  	<option value="1">Allocation</option>
+							  	<option value="2">Referral</option>
+							</select><br />
+
+
+							<input type="button" class="button" value="Register"></input>
+						</fieldset>
+					</form>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>
