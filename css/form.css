@@ -9,7 +9,7 @@ form				{padding: 3px; margin-bottom: 20px; text-align: left; display: inline-bl
 #content fieldset p {padding: 5px;}
 #content input,
 #content select		{padding: 10px; margin: 5px;}
-#content textarea	{font-family: arial; float: none; width: 580px; height: 150px; padding: 10px; margin: 5px;resize: none;}
+#content textarea	{font-family: arial; float: none; width: 610px; height: 150px; padding: 10px; margin: 5px;resize: none;}
 #content .text-box 	{width: 290px;}
 #content .checkbox 	{height: 40px;}
 #content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer; -moz-border-radius: 10px; border-radius: 10px;
