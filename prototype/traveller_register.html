@@ -7,7 +7,7 @@
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/column.js"></script>
-		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
 	</head> 
 	<body>
 		<div id="header">
@@ -95,6 +95,22 @@
 
 							<label for="reg-card">Card No.</label>
 							<input id="reg-card" type="text" class="text-box" value=""></input><br />
+							
+							<label for="date-num">Exp. Date</label>
+							<div class="date-picker">	
+								<select class="date-num"></select>
+								<select class="date-month"></select>
+								<select class="date-year">
+								</select><br />
+							</div><br />
+
+							<label for="reg-card-type">Card Type</label>
+							<select id="reg-card-type" class="text-box">
+							  	<option value="visa">Visa/Delta/Electron</option>
+							  	<option value="2">MasterCard</option>
+							  	<option value="3">American Express</option>
+							  	<option value="4">Solo/Maestro</option>
+							</select><br />
 
 							<input type="button" class="button" value="Register"></input>
 						</fieldset>

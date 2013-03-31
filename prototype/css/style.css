@@ -5,7 +5,7 @@
  */
 
 /* Default global styles. */
-body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; width: 100%; min-width: 800px; background-color: #CCC;}
+body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; width: 100%; padding: 0px; margin: 0; background-color: #CCC;}
 
 h1 	{font-size: 20pt;}
 h2 	{font-size: 18pt;}
@@ -19,7 +19,7 @@ a {text-decoration: none; color: black;}
 p {margin: 10px 0px 10px 0px;}
 
 /* Header styling */
-#header 	{height: 50px; background-color: #888;}
+#header 	{width: 100%; min-width: 790px; height: 50px; background-color: #888;}
 #header h1 	{float: left; padding: 10px;}
 
 #header #right-content			{float: right; padding: 10px;}
@@ -28,14 +28,14 @@ p {margin: 10px 0px 10px 0px;}
 #login-button {text-decoration: underline;}
 
 /* Nav bar styling */
-#nav-box {background-color: #AAA; float: left; padding: 15px; width: 135px;}
+#nav-box {background-color: #AAA; float: left; padding: 10px; padding-bottom: 20px; width: 135px;}
 #nav-box {-moz-box-shadow: 2px 2px 2px #444; -webkit-box-shadow: 2px 2px 2px #444;; box-shadow: 2px 2px 2px #444;}
 #nav h4 {font-weight: bold;}
 .subnav {list-style-type: square; list-style-position: inside; margin-left: 5px;}
 .subnav li {padding: 5px; font-size: 10pt;}
 
 /* content styling */
-#content 	{background-color: #CCC; padding: 15px; padding-left: 180px; min-width: 900px;}
+#content 	{background-color: #CCC; padding: 15px; padding-left: 170px; min-width: 605px;}
 #content	{box-shadow: inset 2px 2px 2px #444; }
 #content .item {margin: 30px 0px 30px 0px;}
 .item > * {padding: 5px;}
@@ -54,7 +54,7 @@ p {margin: 10px 0px 10px 0px;}
 /* ----------------------- page specific ------------------------- */
 
 /* search.html */
-#form-content {margin-top: 20px;}
+#form-content {width: 100%; float: left; margin-top: 20px;}
 
 /* view_cart.html */
 
@@ -64,9 +64,11 @@ p {margin: 10px 0px 10px 0px;}
 .left 	{float: left;}
 .right 	{float: right;}
 
-
+.pagination {margin: 0 auto; width: 300px; display: block;}
+.dark		{background-color: #444;}
 
 #booking-details {width: 300px; height: 150px; margin:  0 auto;}
 #booking-details h5 {padding: 0px;}
 #edit-details {margin: 0 auto; text-align: center; height: 50px;}
+
 

@@ -11,7 +11,7 @@
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Client Registration</a></h1>
+			<h1><a href="index.html">Hotel Site - Edit Room</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -67,35 +67,44 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="#">Register</a></div>
+				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="client_account.html">Manage Account</a> &gt; <a href="edit_availability.html">Room Availability</a> &gt; <a href="#">Add Date</a></div>
+				<div class="title-box">
+					<h2>Room Name</h2>
+					<p>Here you can add a new date.</p>
+				</div>
+				<div class="button-bar">
+					<a class="button-link left" href="edit_availability.html">Back to Room Availability</a>
+				</div>
 				<div id="form-content" class="centre-form">
-					<form>
-						<fieldset>
-							<legend>Client Registration</legend>
-							
-							<p>Not a member yet? Register!</p>
-							
-							<label for="reg-email">Hotel Name</label>
-							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
-							<label for="reg-email">Email Address</label>
-							<input id="reg-email" type="text" class="text-box" value=""></input><br/>
-							<label for="reg-password">Password</label>
-							<input id="reg-password" type="password" class="text-box" value=""></input><br />
-							<label for="reg-password-confirm">Confirm Password</label>
-							<input id="reg-password-confirm" type="password" class="text-box" value=""></input><br />
-
-							<label for="reg-type">Account Type</label>
-							<select id="reg-type" class="text-box">
-							  	<option value="1">Referral</option>
-							  	<option value="2">Allocation</option>
-							</select><br />
-
-							<label id="reg-no-rooms-label" for="reg-no-rooms">Desired No. Rooms</label>
-							<input id="reg-no-rooms" type="text" class="text-box" value=""></input><br />
-
-							<input type="button" class="button" value="Register"></input>
-						</fieldset>
-					</form>
+					<div class="tabular">
+						<form>
+							<fieldset>
+								<legend>Add Room Booking Date</legend>
+								<label for="date-num">Date From:</label>
+								<div class= "date-picker">
+									<select class="date-num"></select>
+									<select class="date-month"></select>
+									<select class="date-year">
+										<option value="2013">2013</option>
+										<option value="2014"> 2014</option>
+									</select><br />
+								</div><br />
+								<label for="date-num">Date To:</label>
+								<div class="date-picker">	
+									<select class="date-num"></select>
+									<select class="date-month"></select>
+									<select class="date-year">
+										<option value="2013">2013</option>
+										<option value="2014"> 2014</option>
+									</select><br />
+								</div><br />
+								<input class="button" type="submit" formaction="edit_availability.html" value="Add Date"></input>
+							</fieldset>
+						</form>
+					</div>
+					<div class="button-bar">
+						<a class="button-link left" href="edit_availability.html">Back to Room Availability</a>
+					</div>
 				</div>
 			</div> 
 		</div>

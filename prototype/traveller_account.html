@@ -74,34 +74,52 @@
 				</div>
 				<div id="form-content" class="centre-form">
 					<div id="personal-details">
-						<form id="address">
-							<fieldset>
-								<legend>Address</legend>
-								<label for="reg-address1">Address Line #1</label>
-								<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
-								<label for="reg-address2">Address Line #2</label>
-								<input id="reg-address2" type="text" class="text-box" value="Sector 13"></input><br />
-								<label for="reg-town">Town</label>
-								<input id="reg-town" type="text" class="text-box" value="Aberystwyth"></input><br />
-								<label for="reg-county">County</label>
-								<input id="reg-county" type="text" class="text-box" value="Ceredigion"></input><br />
-								<label for="reg-postcode">Post Code</label>
-								<input id="reg-postcode" type="text" class="text-box" value="SY23 1AB"></input><br /><br />
+						<div id="address">
+							<form>
+								<fieldset>
+									<legend>Address</legend>
+									<label for="reg-address1">Address Line #1</label>
+									<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
+									<label for="reg-address2">Address Line #2</label>
+									<input id="reg-address2" type="text" class="text-box" value="Sector 13"></input><br />
+									<label for="reg-town">Town</label>
+									<input id="reg-town" type="text" class="text-box" value="Aberystwyth"></input><br />
+									<label for="reg-county">County</label>
+									<input id="reg-county" type="text" class="text-box" value="Ceredigion"></input><br />
+									<label for="reg-postcode">Post Code</label>
+									<input id="reg-postcode" type="text" class="text-box" value="SY23 1AB"></input><br /><br />
 
-								<input type="button" class="button" value="Update"></input>
-							</fieldset>
-						</form>
-						<form id="card-details">
-							<fieldset>
-								<legend>Card Details</legend>
-								<span>
-								<label for="reg-card-no">Card No.</label>
-								<input id="reg-card-no" type="text" class="text-box" value="123 Fake Street"></input><br />
-							</span>
+									<input type="button" class="button" value="Update"></input>
+								</fieldset>
+							</form>
+						</div>
+						<div id="card-details">
+							<form>
+								<fieldset>
+									<legend>Card Details</legend>
+										<label for="reg-card-no">Card No.</label>
+										<input id="reg-card-no" type="text" class="text-box" value="123 Fake Street"></input><br />
+										
+										<label for="date-num">Exp. Date</label>
+										<div class="date-picker">	
+											<select class="date-num"></select>
+											<select class="date-month"></select>
+											<select class="date-year">
+											</select><br />
+										</div><br />
 
-								<input type="button" class="button" value="Update"></input>
-							</fieldset>
-						</form>
+										<label for="reg-card-type">Card Type</label>
+										<select id="reg-card-type" class="text-box">
+										  	<option value="visa">Visa/Delta/Electron</option>
+										  	<option value="2">MasterCard</option>
+										  	<option value="3">American Express</option>
+										  	<option value="4">Solo/Maestro</option>
+										</select><br />
+
+									<input type="button" class="button" value="Update"></input>
+								</fieldset>
+							</form>
+						</div>
 					</div>
 				</div>
 			</div> 
