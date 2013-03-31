@@ -7,11 +7,11 @@
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/column.js"></script>
-		<script type="text/javascript" src="js/nav.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Login</a></h1>
+			<h1><a href="index.html">Hotel Site - Add Room</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -28,7 +28,7 @@
 				<ul id="nav">
 					<li><a href="index.html"><h4>Home</h4></a></li>
 					<li>
-						<h4>Travellers</h4>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
 						<ul id="traveller-nav" class="subnav">
 							<li><a href="traveller_login.html">Login</a></li>
 							<li><a href="traveller_register.html">Register</a></li>
@@ -39,7 +39,7 @@
 					</li>
 
 					<li>
-						<h4>Clients</h4>
+						<a href="client_account.html"><h4>Clients</h4></a>
 						<ul id="client-nav" class="subnav">
 							<li><a href="client_login.html">Login</a></li>
 							<li><a href="client_register.html">Register</a></li>
@@ -48,7 +48,7 @@
 					</li>
 			
 					<li>
-						<h4>Admin</h4>
+						<a href="admin_account.html"><h4>Admin</h4></a>
 						<ul id="admin-nav" class="subnav">
 							<li><a href="admin_login.html">Login</a></li>
 							<li><a href="admin_account.html">View Account</a></li>
@@ -67,21 +67,31 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Login</a></div>
+				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="client_account.html">Manage Account</a> &gt; <a href="#">Add Room</a></div>
+				<div class="title-box">
+					<h2>Add Room</h2>
+					<p>Here you can add a new room to be listed on our site. This must not exceed the total number of rooms allocated to your account.</p>
+				</div>
+				<div class="button-bar">
+					<a class="button-link left" href="client_account.html">Back to Account Overview</a>
+				</div>
 				<div id="form-content" class="centre-form">
 					<form>
 						<fieldset>
-							<p>Login with your details.</p>
-							<legend>Traveller Login</legend>
-							<label for="email">Email</label>
-							<input id="email" type="text" class="text-box" value=""></input><br/>
-							<label for="password">Password</label>
-							<input id="password" type="password" class="text-box" value=""></input><br />
-							<input type="button" class="button" value="Login"></input>
+							<p>Enter the details of the room.</p>
+							<legend>Add Room</legend>
+							<label for="room-name">Room Name</label>
+							<input id="room-name" type="text" class="text-box" value=""></input><br/>
+							<label for="room-size">Size</label>
+							<input id="room-size" type="text" class="text-box" value=""></input><br />
+							<input type="submit" class="button" formaction="client_account.html" value="Add Room"></input>
 						</fieldset>
 					</form>
 				</div>
-			</div> 
+				<div class="button-bar">
+					<a class="button-link left" href="client_account.html">Back to Account Overview</a>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

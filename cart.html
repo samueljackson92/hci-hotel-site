@@ -11,7 +11,7 @@
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Booked</a></h1>
+			<h1><a href="index.html">Hotel Site - View Cart</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -28,7 +28,7 @@
 				<ul id="nav">
 					<li><a href="index.html"><h4>Home</h4></a></li>
 					<li>
-						<h4>Travellers</h4>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
 						<ul id="traveller-nav" class="subnav">
 							<li><a href="traveller_login.html">Login</a></li>
 							<li><a href="traveller_register.html">Register</a></li>
@@ -39,7 +39,7 @@
 					</li>
 
 					<li>
-						<h4>Clients</h4>
+						<a href="client_account.html"><h4>Clients</h4></a>
 						<ul id="client-nav" class="subnav">
 							<li><a href="client_login.html">Login</a></li>
 							<li><a href="client_register.html">Register</a></li>
@@ -48,7 +48,7 @@
 					</li>
 			
 					<li>
-						<h4>Admin</h4>
+						<a href="admin_account.html"><h4>Admin</h4></a>
 						<ul id="admin-nav" class="subnav">
 							<li><a href="admin_login.html">Login</a></li>
 							<li><a href="admin_account.html">View Account</a></li>
@@ -67,32 +67,17 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Booked</a></div>
+				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">My Cart</a></div>
 				<div class="title-box">
-					<h2>Booking Confirmation</h2>
-					<p>Your booking is all completed and paid for!</p>
+					<h2>My Cart</h2>
+					<p>You currently have the following items in your cart. Click the proceed with booking button when ready to proceed with booking and payment.</p>
 				</div>
-				<h3>Review Booking</h3>
-				<div id="booking-details">
-					<div class="left">
-						<h5>Customer Name:</h5></b></br>
-						John Doe
-						<br />
-						<br />
-						<h5>Card No.</h5><br />
-						0123456789123
-					</div>
-					<div class="right">
-						<h5>Invoice Address: </h5><br />
-						123 Fake Street<br />
-						Aberystwyth <br />
-						Ceredigion <br />
-						SY23 1AB <br />
-					</div>
+				<div class="button-bar">
+					<a class="button-link left" href="results.html">Back to Search Results</a>
+					<a class="button-link right" href="confirm_booking.html">Proceed with Booking</a>
 				</div>
-
 				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
-				<div class="booked-item item">
+				<div class="cart-item item">
 					<h3>Hotel Choice #1</h3>
 					<h5>Description</h5>
 					<p>
@@ -104,8 +89,9 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 					<div class="item-cost">Cost: &pound;XXX.XX</div>
+					<a class="button-link" href="#" type="button">Remove from Cart</a>
 				</div>
-				<div class="booked-item item" >
+				<div class="cart-item item" >
 					<h3>Hotel Choice #2</h3>
 					<h5>Description</h5>
 					<p>
@@ -117,8 +103,9 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 					<div class="item-cost">Cost: &pound;XXX.XX</div>
+					<a class="button-link" href="#" type="button">Remove from Cart</a>
 				</div>
-				<div class="booked-item item">
+				<div class="cart-item item">
 					<h3>Hotel Choice #3</h3>
 					<h5>Description</h5>
 					<p>
@@ -130,9 +117,13 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 					<div class="item-cost">Cost: &pound;XXX.XX</div>
+					<a class="button-link" href="#" type="button">Remove from Cart</a>
 				</div>
 				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
-
+				<div class="button-bar">
+					<a class="button-link left" href="results.html">Back to Search Results</a>
+					<a class="button-link right" href="confirm_booking.html">Proceed with Booking</a>
+				</div>
 			</div> 
 		</div>
 	</body>

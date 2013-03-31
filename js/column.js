@@ -7,7 +7,6 @@
 
 $(document).ready(function() {
 	setLayoutHeight();
-	$(window).resize(setLayoutHeight);
 });
 
 function setLayoutHeight() {

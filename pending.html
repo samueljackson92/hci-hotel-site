@@ -1,0 +1,139 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<title>Hotel Booking Site</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/column.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+	</head> 
+	<body>
+		<div id="header">
+			<h1><a href="index.html">Hotel Site - Pending</a></h1>
+			<div id="right-content">
+				<span id="login-ref">
+						Not logged in: <a id="login-button" href="#"> Sign In!</a>
+				</span>
+				<span id="search-box">
+						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
+				</span>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			<div id="nav-box">
+				<!-- nav start -->
+				<ul id="nav">
+					<li><a href="index.html"><h4>Home</h4></a></li>
+					<li>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
+						<ul id="traveller-nav" class="subnav">
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
+							<li><a href="search.html">Search</a></li>
+							<li><a href="cart.html">View Cart</a></li>
+							<li><a href="traveller_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="client_account.html"><h4>Clients</h4></a>
+						<ul id="client-nav" class="subnav">
+							<li><a href="client_login.html">Login</a></li>
+							<li><a href="client_register.html">Register</a></li>
+							<li><a href="client_account.html">View Account</a></li>
+						</ul>
+					</li>
+			
+					<li>
+						<a href="admin_account.html"><h4>Admin</h4></a>
+						<ul id="admin-nav" class="subnav">
+							<li><a href="admin_login.html">Login</a></li>
+							<li><a href="admin_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- nav end -->
+			</div>
+			<div id="content">
+				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Pending</a></div>
+				<div class="title-box">
+					<h2>Pending Confirmation</h2>
+					<p>Your booking is pending confirmation by the hotel. You will be notified when it's ready.</p>
+				</div>
+				<h3>Review Booking</h3>
+				<div id="booking-details">
+					<div class="left">
+						<h5>Customer Name:</h5></b></br>
+						John Doe
+						<br />
+						<br />
+						<h5>Card No.</h5><br />
+						0123456789123
+					</div>
+					<div class="right">
+						<h5>Invoice Address: </h5><br />
+						123 Fake Street<br />
+						Aberystwyth <br />
+						Ceredigion <br />
+						SY23 1AB <br />
+					</div>
+				</div>
+				
+				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
+				<div class="booked-item item">
+					<h3>Hotel Choice #1</h3>
+					<h5>Description</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<div class="item-cost">Cost: &pound;XXX.XX</div>
+				</div>
+				<div class="booked-item item" >
+					<h3>Hotel Choice #2</h3>
+					<h5>Description</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<div class="item-cost">Cost: &pound;XXX.XX</div>
+				</div>
+				<div class="booked-item item">
+					<h3>Hotel Choice #3</h3>
+					<h5>Description</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<div class="item-cost">Cost: &pound;XXX.XX</div>
+				</div>
+				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
+
+			</div> 
+		</div>
+	</body>
+</html>

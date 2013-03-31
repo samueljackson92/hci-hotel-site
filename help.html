@@ -11,7 +11,7 @@
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - View Cart</a></h1>
+			<h1><a href="index.html">Hotel Site - Help</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -28,7 +28,7 @@
 				<ul id="nav">
 					<li><a href="index.html"><h4>Home</h4></a></li>
 					<li>
-						<h4>Travellers</h4>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
 						<ul id="traveller-nav" class="subnav">
 							<li><a href="traveller_login.html">Login</a></li>
 							<li><a href="traveller_register.html">Register</a></li>
@@ -39,7 +39,7 @@
 					</li>
 
 					<li>
-						<h4>Clients</h4>
+						<a href="client_account.html"><h4>Clients</h4></a>
 						<ul id="client-nav" class="subnav">
 							<li><a href="client_login.html">Login</a></li>
 							<li><a href="client_register.html">Register</a></li>
@@ -48,7 +48,7 @@
 					</li>
 			
 					<li>
-						<h4>Admin</h4>
+						<a href="admin_account.html"><h4>Admin</h4></a>
 						<ul id="admin-nav" class="subnav">
 							<li><a href="admin_login.html">Login</a></li>
 							<li><a href="admin_account.html">View Account</a></li>
@@ -67,19 +67,8 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">My Cart</a></div>
-				<div class="title-box">
-					<h2>My Cart</h2>
-					<p>You currently have the following items in your cart. Click the proceed with booking button when ready to proceed with booking and payment.</p>
-				</div>
-				<div class="button-bar">
-					<a class="button-link left" href="results.html">Back to Search Results</a>
-					<a class="button-link right" href="confirm_booking.html">Proceed with Booking</a>
-				</div>
-				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
-				<div class="cart-item item">
-					<h3>Hotel Choice #1</h3>
-					<h5>Description</h5>
+				<div id="traveller-help">
+					<h2>Traveller Help</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -88,12 +77,6 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
-					<div class="item-cost">Cost: &pound;XXX.XX</div>
-					<a class="button-link" href="#" type="button">Remove from Cart</a>
-				</div>
-				<div class="cart-item item" >
-					<h3>Hotel Choice #2</h3>
-					<h5>Description</h5>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -102,12 +85,9 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
-					<div class="item-cost">Cost: &pound;XXX.XX</div>
-					<a class="button-link" href="#" type="button">Remove from Cart</a>
 				</div>
-				<div class="cart-item item">
-					<h3>Hotel Choice #3</h3>
-					<h5>Description</h5>
+				<div id="client-help">
+					<h2>Client Help</h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -116,15 +96,8 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
-					<div class="item-cost">Cost: &pound;XXX.XX</div>
-					<a class="button-link" href="#" type="button">Remove from Cart</a>
 				</div>
-				<div id="total-cost">Total Cost: &pound;XXX.XX</div>
-				<div class="button-bar">
-					<a class="button-link left" href="results.html">Back to Search Results</a>
-					<a class="button-link right" href="confirm_booking.html">Proceed with Booking</a>
-				</div>
-			</div> 
+			</div>
 		</div>
 	</body>
 </html>

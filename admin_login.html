@@ -7,11 +7,11 @@
 
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/column.js"></script>
-		<script type="text/javascript" src="js/general.js"></script>
+		<script type="text/javascript" src="js/nav.js"></script>
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Confirm Booking</a></h1>
+			<h1><a href="index.html">Hotel Site - Admin Login</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
@@ -28,7 +28,7 @@
 				<ul id="nav">
 					<li><a href="index.html"><h4>Home</h4></a></li>
 					<li>
-						<h4>Travellers</h4>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
 						<ul id="traveller-nav" class="subnav">
 							<li><a href="traveller_login.html">Login</a></li>
 							<li><a href="traveller_register.html">Register</a></li>
@@ -39,7 +39,7 @@
 					</li>
 
 					<li>
-						<h4>Clients</h4>
+						<a href="client_account.html"><h4>Clients</h4></a>
 						<ul id="client-nav" class="subnav">
 							<li><a href="client_login.html">Login</a></li>
 							<li><a href="client_register.html">Register</a></li>
@@ -48,7 +48,7 @@
 					</li>
 			
 					<li>
-						<h4>Admin</h4>
+						<a href="admin_account.html"><h4>Admin</h4></a>
 						<ul id="admin-nav" class="subnav">
 							<li><a href="admin_login.html">Login</a></li>
 							<li><a href="admin_account.html">View Account</a></li>
@@ -67,38 +67,23 @@
 				<!-- nav end -->
 			</div>
 			<div id="content">
-				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Confirm Booking</a></div>
+				<div id="breadcrumb"><a href="#">Admin</a> &gt; <a href="#">Login</a></div>
 				<div class="title-box">
-					<h2>Confirm Booking</h2>
-					<p>You currently have the following items in your cart. Click the proceed with booking button when ready to proceed with booking and payment.</p>
+					<h2>Admin Login</h2>
+					<p>This login menu is for site administrators.</p>
 				</div>
-				<div class="button-bar">
-					<a class="button-link left" href="cart.html">Back to Cart</a>
-					<a class="button-link right" href="complete.html">Pay &amp; Book</a>
-				</div>
-
-				<div id="booking-details">
-					<div class="left">
-						<h5>Customer Name:</h5></b></br>
-						John Doe
-						<br />
-						<br />
-						<h5>Card No.</h5><br />
-						********9123
-					</div>
-					<div class="right">
-						<h5>Invoice Address: </h5><br />
-						123 Fake Street<br />
-						Aberystwyth <br />
-						Ceredigion <br />
-						SY23 1AB <br />
-					</div>
-				</div>
-				<div id="edit-details"><a class="button-link" href="traveller_account.html">Edit Details</a></div>
-
-				<div class="button-bar">
-					<a class="button-link left" href="cart.html">Back to Cart</a>
-					<a class="button-link right" href="complete.html">Pay &amp; Book</a>
+				<div id="form-content" class="centre-form">
+					<form>
+						<fieldset>
+							<p>Login with your details.</p>
+							<legend>Admin Login</legend>
+							<label for="email">Email</label>
+							<input id="email" type="text" class="text-box" value=""></input><br/>
+							<label for="password">Password</label>
+							<input id="password" type="password" class="text-box" value=""></input><br />
+							<input type="button" class="button" value="Login"></input>
+						</fieldset>
+					</form>
 				</div>
 			</div> 
 		</div>
