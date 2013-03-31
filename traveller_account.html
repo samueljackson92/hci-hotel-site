@@ -1,0 +1,128 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<title>Hotel Booking Site</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/column.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+	</head> 
+	<body>
+		<div id="header">
+			<h1><a href="index.html">Hotel Site - Manage Account</a></h1>
+			<div id="right-content">
+				<span id="login-ref">
+						Not logged in: <a id="login-button" href="#"> Sign In!</a>
+				</span>
+				<span id="search-box">
+						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
+				</span>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			<div id="nav-box">
+				<!-- nav start -->
+				<ul id="nav">
+					<li><a href="index.html"><h4>Home</h4></a></li>
+					<li>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
+						<ul id="traveller-nav" class="subnav">
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
+							<li><a href="search.html">Search</a></li>
+							<li><a href="cart.html">View Cart</a></li>
+							<li><a href="traveller_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="client_account.html"><h4>Clients</h4></a>
+						<ul id="client-nav" class="subnav">
+							<li><a href="client_login.html">Login</a></li>
+							<li><a href="client_register.html">Register</a></li>
+							<li><a href="client_account.html">View Account</a></li>
+						</ul>
+					</li>
+			
+					<li>
+						<a href="admin_account.html"><h4>Admin</h4></a>
+						<ul id="admin-nav" class="subnav">
+							<li><a href="admin_login.html">Login</a></li>
+							<li><a href="admin_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- nav end -->
+			</div>
+			<div id="content">
+				<div id="breadcrumb"><a href="#">Travellers</a> &gt; <a href="#">Account</a></div>
+				<div class="title-box">
+					<h2>My Traveller Account</h2>
+					<p>Manage your account details.</p>
+				</div>
+				<div id="form-content" class="centre-form">
+					<div id="personal-details">
+						<div id="address">
+							<form>
+								<fieldset>
+									<legend>Address</legend>
+									<label for="reg-address1">Address Line #1</label>
+									<input id="reg-address1" type="text" class="text-box" value="123 Fake Street"></input><br />
+									<label for="reg-address2">Address Line #2</label>
+									<input id="reg-address2" type="text" class="text-box" value="Sector 13"></input><br />
+									<label for="reg-town">Town</label>
+									<input id="reg-town" type="text" class="text-box" value="Aberystwyth"></input><br />
+									<label for="reg-county">County</label>
+									<input id="reg-county" type="text" class="text-box" value="Ceredigion"></input><br />
+									<label for="reg-postcode">Post Code</label>
+									<input id="reg-postcode" type="text" class="text-box" value="SY23 1AB"></input><br /><br />
+
+									<input type="button" class="button" value="Update"></input>
+								</fieldset>
+							</form>
+						</div>
+						<div id="card-details">
+							<form>
+								<fieldset>
+									<legend>Card Details</legend>
+										<label for="reg-card-no">Card No.</label>
+										<input id="reg-card-no" type="text" class="text-box" value="123 Fake Street"></input><br />
+										
+										<label for="date-num">Exp. Date</label>
+										<div class="date-picker">	
+											<select class="date-num"></select>
+											<select class="date-month"></select>
+											<select class="date-year">
+											</select><br />
+										</div><br />
+
+										<label for="reg-card-type">Card Type</label>
+										<select id="reg-card-type" class="text-box">
+										  	<option value="visa">Visa/Delta/Electron</option>
+										  	<option value="2">MasterCard</option>
+										  	<option value="3">American Express</option>
+										  	<option value="4">Solo/Maestro</option>
+										</select><br />
+
+									<input type="button" class="button" value="Update"></input>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>

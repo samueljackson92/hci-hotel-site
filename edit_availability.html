@@ -1,0 +1,169 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+	<head>
+		<title>Hotel Booking Site</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/column.js"></script>
+		<script type="text/javascript" src="js/general.js"></script>
+	</head> 
+	<body>
+		<div id="header">
+			<h1><a href="index.html">Hotel Site - Edit Room</a></h1>
+			<div id="right-content">
+				<span id="login-ref">
+						Not logged in: <a id="login-button" href="#"> Sign In!</a>
+				</span>
+				<span id="search-box">
+						<input id="quick-search" type="text" value="Quick Search"></input>
+						<input type="button" class="button" value="Search"></input>
+				</span>
+			</div>
+		</div>
+		<div id="content-wrapper">
+			<div id="nav-box">
+				<!-- nav start -->
+				<ul id="nav">
+					<li><a href="index.html"><h4>Home</h4></a></li>
+					<li>
+						<a href="traveller_account.html"><h4>Travellers</h4></a>
+						<ul id="traveller-nav" class="subnav">
+							<li><a href="traveller_login.html">Login</a></li>
+							<li><a href="traveller_register.html">Register</a></li>
+							<li><a href="search.html">Search</a></li>
+							<li><a href="cart.html">View Cart</a></li>
+							<li><a href="traveller_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="client_account.html"><h4>Clients</h4></a>
+						<ul id="client-nav" class="subnav">
+							<li><a href="client_login.html">Login</a></li>
+							<li><a href="client_register.html">Register</a></li>
+							<li><a href="client_account.html">View Account</a></li>
+						</ul>
+					</li>
+			
+					<li>
+						<a href="admin_account.html"><h4>Admin</h4></a>
+						<ul id="admin-nav" class="subnav">
+							<li><a href="admin_login.html">Login</a></li>
+							<li><a href="admin_account.html">View Account</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="help.html"><h4>Help</h4></a>
+						<ul id="help-nav" class="subnav">
+							<li><a href="help.html#traveller-help">Traveller Help</a></li>
+							<li><a href="help.html#client-help">Client Help</a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- nav end -->
+			</div>
+			<div id="content">
+				<div id="breadcrumb"><a href="#">Clients</a> &gt; <a href="client_account.html">Manage Account</a> &gt; <a href="#">Room Availability</a></div>
+				<div class="title-box">
+					<h2>Room Name</h2>
+					<p>Here you can view and update the availability of a room.</p>
+				</div>
+				<div class="button-bar">
+					<a class="button-link left" href="client_account.html">Back to Account Overview</a>
+				</div>
+				<div id="form-content" class="centre-form">
+					<div class="tabular">
+						<form>
+							<fieldset>
+								<legend>Room Availability Management</legend>
+								<table>
+									<thead><td>Booked Dates</td><td>Edit</td><td>Remove</td></thead>
+									<tr>
+										<td>
+											<div class= "date-picker">
+												<span>Start Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+											<div class= "date-picker">
+												<span>End Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+										</td>
+										<td><input class="button" type="button" value="Edit"></input></td>
+										<td><input class="button" type="button" value="Remove"></input></td>
+									</tr>
+									<tr>
+										<td>
+											<div class= "date-picker">
+												<span>Start Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+											<div class= "date-picker">
+												<span>End Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+										</td>
+										<td><input class="button" type="button" value="Edit"></input></td>
+										<td><input class="button" type="button" value="Remove"></input></td>
+									</tr>
+									<tr>
+										<td>
+											<div class= "date-picker">
+												<span>Start Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+											<div class= "date-picker">
+												<span>End Date:</span><br />
+												<select class="date-num"></select>
+												<select class="date-month"></select>
+												<select class="date-year">
+													<option value="2013">2013</option>
+													<option value="2014"> 2014</option>
+												</select><br />
+											</div>
+										</td>
+										<td><input class="button" type="button" value="Edit"></input></td>
+										<td><input class="button" type="button" value="Remove"></input></td>
+									</tr>
+								</table>
+								<input type="submit" class="button" formaction="add_date.html" value="Add Date"></input>
+							</fieldset>
+						</form>
+					</div>
+					<div class="button-bar">
+						<a class="button-link left" href="client_account.html">Back to Account Overview</a>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>

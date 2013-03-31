@@ -1,0 +1,33 @@
+/* Form.css
+ * Author: Samuel Jackson (slj11@aber.ac.uk)
+ * Date: 29/3/13
+ * Description: Form styling sheet for a consistent look.
+ */
+form				{padding: 3px; margin-bottom: 20px; text-align: left; display: inline-block; *display: inline; zoom: 1;}
+#content legend		{font-weight: bold;}
+#content fieldset	{padding: 5px;}
+#content fieldset p {padding: 5px;}
+#content input,
+#content select		{padding: 10px; margin: 5px;}
+#content textarea	{font-family: arial; float: none; width: 580px; height: 150px; padding: 10px; margin: 5px;resize: none;}
+#content .text-box 	{width: 290px;}
+#content .checkbox 	{height: 40px;}
+#content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer; -moz-border-radius: 10px; border-radius: 10px;
+					-moz-border-radius: 10px; -moz-box-shadow: 2px 2px 2px #444;-webkit-box-shadow: 2px 2px 2px #444; box-shadow: 2px 2px 2px #444;}
+
+#content fieldset		{border: 1px solid #000;}
+#content fieldset label	{display: block; width: 150px; padding: 15px; float: left; display: block;}
+
+#content table 				{width: 510px;}
+#content table .text-box 	{width: 150px;}
+#content table .short-text 	{width: 40px;}
+#content table thead 	{font-weight: bold;} 
+#content table td 		{padding: 5px; vertical-align: middle;}
+#content table tr 		{border-bottom: 1px solid #999;}
+
+.centre-form 	{text-align: center;}
+.date-picker 	{width: 300px; float: left;}
+.date-picker span {margin: 10px;} 
+.date-num	 	{width: 55px;}
+.date-month		{width: 125px;}
+.date-year		{width: 80px;}
