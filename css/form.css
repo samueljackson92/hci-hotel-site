@@ -8,9 +8,9 @@ form				{padding: 3px; margin-bottom: 20px; text-align: left; display: inline-bl
 #content fieldset	{padding: 5px;}
 #content fieldset p {padding: 5px;}
 #content input,
-#content select		{padding: 10px; margin: 5px;}
+#content select {padding: 10px; margin: 5px; width: 290px;}
 #content textarea	{font-family: arial; float: none; width: 610px; height: 150px; padding: 10px; margin: 5px;resize: none;}
-#content .text-box 	{width: 290px;}
+#content input	{width: 265px;}
 #content .checkbox 	{height: 40px;}
 #content .button 	{width: 100px; white-space: normal; background-color: #777; color: #000; border: 0px; cursor: hand; cursor: pointer; -moz-border-radius: 10px; border-radius: 10px;
 					-moz-border-radius: 10px; -moz-box-shadow: 2px 2px 2px #444;-webkit-box-shadow: 2px 2px 2px #444; box-shadow: 2px 2px 2px #444;}
@@ -26,8 +26,10 @@ form				{padding: 3px; margin-bottom: 20px; text-align: left; display: inline-bl
 #content table tr 		{border-bottom: 1px solid #999;}
 
 .centre-form 	{text-align: center;}
-.date-picker 	{width: 300px; float: left;}
+.date-picker 	{width: 500px;}
 .date-picker span {margin: 10px;} 
-.date-num	 	{width: 55px;}
-.date-month		{width: 125px;}
-.date-year		{width: 80px;}
+ #content .date-num	 	{width: 55px;}
+ #content .date-month		{width: 125px;}
+ #content .date-year		{width: 80px;}
+
+#content td .date-picker {width: 300px;}
