@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">	
 	<head>
 		<title>Hotel Booking Site</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
@@ -13,12 +13,13 @@
 	</head> 
 	<body>
 		<div id="header">
-			<h1><a href="index.html">Hotel Site - Search</a></h1>
+			<h1><a href="index.html">Hotel Site - Home</a></h1>
 			<div id="right-content">
 				<span id="login-ref">
 						Not logged in: <a id="login-button" href="#"> Sign In!</a>
 				</span>
 				<span id="search-box">
+						<label class="hidden" for="quick-search">Quick Search</label>
 						<input id="quick-search" type="text" value="Quick Search"></input>
 						<input type="button" class="button" value="Search"></input>
 				</span>
@@ -100,19 +101,25 @@
 							</select><br />
 
 							<label>Date From:</label>
-							<div class= "date-picker">
-								<select class="date-num"><option></option></select>
-								<select class="date-month"><option></option></select>
-								<select class="date-year">
+							<div class="date-picker">
+								<label for="from-date-day" class="hidden">Day</label>
+								<select id="from-date-day" class="date-num"><option></option></select>
+								<label for="from-date-month" class="hidden">Month</label>
+								<select id="from-date-month" class="date-month"><option></option></select>
+								<label for="from-date-year" class="hidden">Year</label>
+								<select id="from-date-year" class="date-year">
 									<option value="2013">2013</option>
 									<option value="2014"> 2014</option>
 								</select><br />
 							</div><br />
 							<label>Date To:</label>
-							<div class="date-picker">	
-								<select class="date-num"><option></option></select>
-								<select class="date-month"><option></option></select>
-								<select class="date-year">
+							<div class="date-picker">
+								<label for="to-date-day" class="hidden">Day</label>
+								<select id="to-date-day" class="date-num"><option></option></select>
+								<label for="to-date-month" class="hidden">Month</label>
+								<select id="to-date-month"class="date-month"><option></option></select>
+								<label for="to-date-year" class="hidden">Year</label>
+								<select id="to-date-year"class="date-year">
 									<option value="2013">2013</option>
 									<option value="2014"> 2014</option>
 								</select><br />
