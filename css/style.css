@@ -74,4 +74,10 @@ table .button-link {font-size: 10pt; padding: 10px 30px 10px 30px;}
 #booking-details h5 {padding: 0px;}
 #edit-details {margin: 0 auto; text-align: center; height: 50px;}
 
-
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
