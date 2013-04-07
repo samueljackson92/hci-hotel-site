@@ -1,5 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}
 \BOOKMARK [1][-]{section.2}{Task Analysis}{}
+\BOOKMARK [2][-]{subsection.2.1}{Identification of Users}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{System Tasks}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Data Flow Diagram}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{State Transition Diagrams}{section.2}
 \BOOKMARK [1][-]{section.3}{Interaction Design}{}
 \BOOKMARK [1][-]{section.4}{Prototype}{}
 \BOOKMARK [1][-]{section.5}{Discussion}{}
