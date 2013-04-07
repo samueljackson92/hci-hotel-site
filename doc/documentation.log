@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  7 APR 2013 16:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  7 APR 2013 20:43
 entering extended mode
  %&-line parsing enabled.
 **documentation.tex
@@ -187,7 +187,14 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 75.
 )
-(./documentation.aux)
+(./documentation.aux
+
+LaTeX Warning: Label `fig:wireframe-client-register' multiply defined.
+
+
+LaTeX Warning: Label `fig:wireframe-client-register' multiply defined.
+
+)
 \openout1 = `documentation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -287,7 +294,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 21.
 
-<img/richpic.png, id=40, 3168.83875pt x 1646.15pt>
+<img/richpic.png, id=72, 3168.83875pt x 1646.15pt>
 File: img/richpic.png Graphic file (type png)
  <use img/richpic.png>
 [1
@@ -300,55 +307,127 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
- [2 <./img/richpic.png (PNG copy)>] <img/UseCase.png, id=59, 2559.5625pt x 3312
+ [2 <./img/richpic.png (PNG copy)>] <img/UseCase.png, id=91, 2559.5625pt x 3312
 .375pt>
 File: img/UseCase.png Graphic file (type png)
 
 <use img/UseCase.png> [3] [4 <./img/UseCase.png (PNG copy)>] [5]
-<img/dataflow.png, id=74, 3312.375pt x 2559.5625pt>
+<img/dataflow.png, id=106, 3312.375pt x 2559.5625pt>
 File: img/dataflow.png Graphic file (type png)
  <use img/dataflow.png>
 [6
 
  <./img/dataflow.png (PNG copy)>]
-<img/state_diagrams/StateDiagramUserAuth.png, id=80, 2064.71375pt x 2097.8375pt
->
+<img/state_diagrams/StateDiagramUserAuth.png, id=112, 2064.71375pt x 2097.8375p
+t>
 File: img/state_diagrams/StateDiagramUserAuth.png Graphic file (type png)
  <use img/state_diagrams/StateDiagramUserAuth.png> [7
 
  <./img/state_diagrams/StateDiagramUserAuth.png (PNG copy)>]
-<img/state_diagrams/StateTransitionClientManagement.png, id=88, 1577.895pt x 12
-40.635pt>
+<img/state_diagrams/StateTransitionClientManagement.png, id=120, 1577.895pt x 1
+240.635pt>
 File: img/state_diagrams/StateTransitionClientManagement.png Graphic file (type
  png)
- <use img/state_diagrams/StateTransitionClientManagement.png> [8 <./img/state_d
-iagrams/StateTransitionClientManagement.png (PNG copy)>]
-<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=95, 1983.41pt x 
-2099.845pt>
+ <use img/state_diagrams/StateTransitionClientManagement.png>
+[8 <./img/state_diagrams/StateTransitionClientManagement.png (PNG copy)>]
+<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=127, 1983.41pt x
+ 2099.845pt>
 File: img/state_diagrams/StateTransitionDiagramUserPayement.png Graphic file (t
 ype png)
  <use img/state_diagrams/StateTransitionDiagramUserPayement.png>
 [9 <./img/state_diagrams/StateTransitionDiagramUserPayement.png (PNG copy)>]
-[10] (./documentation.aux) ) 
+<img/wireframes/Login.png, id=135, 2714.14pt x 1543.7675pt>
+File: img/wireframes/Login.png Graphic file (type png)
+
+<use img/wireframes/Login.png>
+<img/wireframes/TravellerRegistration.png, id=136, 2725.18124pt x 2221.29875pt>
+File: img/wireframes/TravellerRegistration.png Graphic file (type png)
+<use img/wireframes/TravellerRegistration.png> [10 <./img/wireframes/Login.png 
+(PNG copy)>]
+<img/wireframes/ClientLogin.png, id=143, 2725.18124pt x 1735.48375pt>
+File: img/wireframes/ClientLogin.png Graphic file (type png)
+
+<use img/wireframes/ClientLogin.png>
+<img/wireframes/ClientRegister.png, id=144, 2691.05376pt x 2204.235pt>
+File: img/wireframes/ClientRegister.png Graphic file (type png)
+
+<use img/wireframes/ClientRegister.png> [11 <./img/wireframes/TravellerRegistra
+tion.png (PNG copy)> <./img/wireframes/ClientLogin.png (PNG copy)>]
+<img/wireframes/TravellerAccount.png, id=153, 2708.1175pt x 2028.57875pt>
+File: img/wireframes/TravellerAccount.png Graphic file (type png)
+
+<use img/wireframes/TravellerAccount.png> [12 <./img/wireframes/ClientRegister.
+png (PNG copy)>]
+<img/wireframes/ClientManagement.png, id=163, 2703.09875pt x 2034.60126pt>
+File: img/wireframes/ClientManagement.png Graphic file (type png)
+
+<use img/wireframes/ClientManagement.png> [13 <./img/wireframes/TravellerAccoun
+t.png (PNG copy)>]
+<img/wireframes/EditAvalibility.png, id=172, 2719.15875pt x 2056.68375pt>
+File: img/wireframes/EditAvalibility.png Graphic file (type png)
+
+<use img/wireframes/EditAvalibility.png> [14 <./img/wireframes/ClientManagement
+.png (PNG copy)> <./img/wireframes/EditAvalibility.png (PNG copy)>]
+<img/wireframes/AddRoom.png, id=181, 2719.15875pt x 2045.6425pt>
+File: img/wireframes/AddRoom.png Graphic file (type png)
+
+<use img/wireframes/AddRoom.png>
+<img/wireframes/AddDate.png, id=182, 2731.20375pt x 2056.68375pt>
+File: img/wireframes/AddDate.png Graphic file (type png)
+
+<use img/wireframes/AddDate.png> [15 <./img/wireframes/AddRoom.png (PNG copy)>]
+<img/wireframes/Administrator.png, id=189, 2714.14pt x 2034.60126pt>
+File: img/wireframes/Administrator.png Graphic file (type png)
+
+<use img/wireframes/Administrator.png> [16 <./img/wireframes/AddDate.png (PNG c
+opy)>] <img/wireframes/Search.png, id=196, 2714.14pt x 2028.57875pt>
+File: img/wireframes/Search.png Graphic file (type png)
+
+<use img/wireframes/Search.png> [17 <./img/wireframes/Administrator.png (PNG co
+py)>] <img/wireframes/Results.png, id=204, 2776.3725pt x 2023.56pt>
+File: img/wireframes/Results.png Graphic file (type png)
+
+<use img/wireframes/Results.png> [18 <./img/wireframes/Search.png (PNG copy)>]
+<img/wireframes/Cart.png, id=212, 2748.2675pt x 2277.50874pt>
+File: img/wireframes/Cart.png Graphic file (type png)
+
+<use img/wireframes/Cart.png> [19 <./img/wireframes/Results.png (PNG copy)>]
+<img/wireframes/ConfirmBooking.png, id=219, 2725.18124pt x 2040.62375pt>
+File: img/wireframes/ConfirmBooking.png Graphic file (type png)
+
+<use img/wireframes/ConfirmBooking.png> [20 <./img/wireframes/Cart.png (PNG cop
+y)> <./img/wireframes/ConfirmBooking.png (PNG copy)>]
+<img/wireframes/Booked.png, id=231, 2731.20375pt x 1785.67125pt>
+File: img/wireframes/Booked.png Graphic file (type png)
+
+<use img/wireframes/Booked.png>
+<img/wireframes/Pending.png, id=232, 2736.2225pt x 1780.6525pt>
+File: img/wireframes/Pending.png Graphic file (type png)
+
+<use img/wireframes/Pending.png> [21 <./img/wireframes/Booked.png (PNG copy)>]
+[22 <./img/wireframes/Pending.png (PNG copy)>] (./documentation.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4652 strings out of 495061
- 68393 string characters out of 1182622
- 138423 words of memory out of 3000000
- 7748 multiletter control sequences out of 15000+50000
+ 4791 strings out of 495061
+ 71749 string characters out of 1182622
+ 139398 words of memory out of 3000000
+ 7834 multiletter control sequences out of 15000+50000
  8232 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,6n,36p,781b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmtt12.pfb>
-Output written on documentation.pdf (10 pages, 746735 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on documentation.pdf (22 pages, 2805612 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 

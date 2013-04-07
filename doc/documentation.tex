@@ -139,10 +139,186 @@ Finally, depending on the type of booking model the Hotel is registered with, th
 \section{Interaction Design}
 The next section of this document is concerned with the interaction design for the  Hotel Booking website. This includes a large set of high level wire frame designs for the major pages in the site. In short, this section defines the general structure of the user interface for the website, without real regard for the site's internal operation.
 
+Before going into detail about the design of each of the specific pages, it is first worth talking about features of each page which are consistent across every wireframe. 
 
+Each page is designed to have a banner with the name of the site running across the top of the page, along with a reference to where you are in the site. On the right hand site of the header will be a texbox where a Traveller can perform a "quick search" from anywhere in the site without having to navigate the search page first. There will also be a small section next to this text box indicating where the user is current logged into the system and offering them an option to login/logout accordingly.
+
+Running along the left hand side of the page will be the main navigation section of the site. This will consist of large links for the major areas of the site with sub-links taking the user to specific parts of that section.
+
+In the middle of the screen, below the header and next to the menu is the section of the page which changes according to what page the user is currently on. This section is where new, relevant information will be presented to the user. On most pages, a breadcrumb link will be available to the user to inform them where they currently are and giving the to transcend back up the hierarchy.
+
+\subsection{Traveller Login and Registration}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Login.png}
+\caption{Wireframe for Traveller login page.}
+\label{fig:wireframe-traveller-login}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/TravellerRegistration.png}
+\caption{Wireframe for Traveller registration page.}
+\label{fig:wireframe-traveller-register}
+\end{figure}
+
+The first to wireframes show an overview of the design of the Traveller login and registration pages. Both of these page use a straight forward design, clearly displaying a form with a label identifying what input is expected in each field. At the bottom of each of the forms is a button of the user to submit the action to server. Again this is clearly labelled to tell the user exactly what action they will be performing when clicking it.
+
+\subsection{Client Login and Registration}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ClientLogin.png}
+\caption{Wireframe for Client login page.}
+\label{fig:wireframe-client-login}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ClientRegister.png}
+\caption{Wireframe for Client registration page.}
+\label{fig:wireframe-client-register}
+\end{figure}
+
+The next two wireframes show the designs for the Client login and registration pages and a quite similar to the traveller login and registration pages, except that registration requires different fields. I have chosen to use a drop down menu for account type so as the clearly limit the options available to the user. Information about the what the types of model could be described in brief at the top of the page and possible in further detail on a help page. In actual development, when a client chooses which model they would like to apply for, if the allocation model is selected, I would expect an additional field to allow the user to input how many rooms they would like to be allocated to there account.
+
+\subsection{Administrator Login}
+The next wireframe for the administrator login follows suit of the other two, simply requiring the user to enter an email address and password to again access to their account. Note that administrators do not have a page for registration. It is assumed that they are allocated an account with the hotel booking site either through the site's server administration or by some other system.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Image of Admin Login Wireframe
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Traveller Account Management}
+This wireframe shows the design for the travellers account management page. Like most pages, this design incorporates the name of the traveller at the top of the page just below the breadcrumb navigation element. It also contains a simple textual description of about what the user do on this page. The rest of the page is split into to forms separated by a field-set. The first form allows of editing the users billing address and the second allows for editing the payment card they have registered with their account.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/TravellerAccount.png}
+\caption{Wireframe for Traveller management page.}
+\label{fig:wireframe-client-register}
+\end{figure}
+
+\subsection{Client Account Management}
+This section shows the collection of interface designs for the Client management facilities available on the site. Client management is the most complex part of the management system. The first wireframe design shown in figure \ref{fig:wireframe-client-management} shows entry point the user is shown when accessing Client management facilities. This wireframe is equivilent to the "Viewing Account Overview" state shown in figure \ref{fig:state-client-manage}.
+
+Figure \ref{fig:wireframe-client-management} shows the full version of the Client account management interface, i.e. the one which the comes with an allocation account. If the Client was assigned a referral account, the only feature that would bes displayed to them would be the ability to edit the promotional information at the top half of the page.
+ 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ClientManagement.png}
+\caption{Wireframe for Client management page.}
+\label{fig:wireframe-client-management}
+\end{figure}
+
+The bottom half of the page shows the design for the interface allowing the Client to add, remove, edit and update the availability of the rooms they have listed on the site. I have decided that the most clear and user friendly way of displaying this data and the available actions associated with it would be to show it in tabular form with clear headings for each column. This seemed sensible as it allowed me to clearly convey a large amount of data to the user in a relatively compact space. Again, like previous forms, the actions available to the user will shown in the form of clearly labelled, click-able buttons.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/EditAvalibility.png}
+\caption{Wireframe for editing the availability of a room.}
+\label{fig:wireframe-client-availability}
+\end{figure}
+
+The next wireframe, figure \ref{fig:wireframe-client-availability} shows the screen for editing the availability of a room. This option is reached by clicking on the "Update" button shown in figure \ref{fig:wireframe-client-management}. Similarly, I have chosen to display the data about each of the dates the room is booked for in tabular format for the same reasons.
+
+Also note that this page has an option to return to the previous page at both the top and bottom of the page. This is so that if there is a lot of data displayed on the page, the user dos not need to scroll back to the top to return to the account overview page, this is a recurring technique that is used throughout a lot of pages on the site. In a real functioning site, each of the dates would be listed in chronological order starting with the oldest (date closest to the present day) first. 
+
+Also notice that as this room is only accessible from the account management page, the breadcrumb navigation is expanded another level to given a clear indication of where we are and provide a way for the user to quickly jump back up a level.
+
+The final two wireframes in this section are included together as they are similar in design. They shown the interface designs for adding a new room and adding a new booking date to the system. Again they use the simple form style I have used on other pages. Each page has clear navigation elements to return to the previous page and they also have an extra entry in the breadcrumb to easy navigation back up the hierarchy. 
+
+Note that I have included the functionality for a room's availability to be manually listed as being booked in case it is booked by a system outside of the site itself (e.g. a Client with an allocation account has taken a direct booking or a booking from another site).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/AddRoom.png}
+\caption{Wireframe for adding a new room to the system.}
+\label{fig:wireframe-client-add-room}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/AddDate.png}
+\caption{Wireframe for adding a new booking date to the system.}
+\label{fig:wireframe-client-add-date}
+\end{figure}
+
+\subsection{Administrator Account Management}
+For the management page of the administrator account I have simply listed the details of each hotel that is requesting authorisation for an account and provided clear options to either accept or decline the request. The details about the registration request will include whether the request is for an allocation model account or a referral model account.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Administrator.png}
+\caption{Wireframe for Admin management page.}
+\label{fig:wireframe-client-register}
+\end{figure}
+
+
+\subsection{Traveller Search}
+Traveller search is one of the major functions a user can perform on the site. This page simply provides a form for the user to search for accommodation on the site and filter it using the fields provided. As an example of what criteria might be used to filter search results, I've shown the form with field for searching by: Hotel name, Location, type (i.e. Guest House/Hotel) star rating and the dates the accommodation is available from and until.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Search.png}
+\caption{Wireframe for Traveller search page.}
+\label{fig:wireframe-traveller-search}
+\end{figure}
+
+Pressing search on the search page will take the user to the following wireframe design shown in figure \ref{fig:wireframe-traveller-results}. This shows the user a list of results that met their specified search criteria. Each result item will provide a description of the hotel, the cost of the accommodation and the ability to add the item to the user's cart. If the site was implemented fully, I would expect results to be added to the cart from this page either on the click of the add to cart button either by AJAX or by a page refresh. 
+
+This page provides navigation buttons to go "forward" in the search/booking flow to view there cart or "backwards" to refine there search criteria. Like other pages, this page has a set of navigation controls at the top and bottom of the page to save the user having to scroll back to the top of the page.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Results.png}
+\caption{Wireframe for the results of a Traveller search.}
+\label{fig:wireframe-traveller-results}
+\end{figure}
+
+\subsection{Traveller Booking}
+The final section of the site, and probably the most important is the section which deals with taking the booking from customers. Firstly, after adding items to their cart from the search results, users can go navigate to their cart either thorough the side menu or via the navigational controls on the results page. This page will display all of the items they have selected to pay for and book. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Cart.png}
+\caption{Wireframe for the Traveller's cart.}
+\label{fig:wireframe-traveller-cart}
+\end{figure}
+
+Again this page has a very similar design to previous pages for consistency. I have also include a note of the total cost of the basket at the top and bottom of the page, so that the Traveller can clearly see the overall cost of what they are paying for. The individual cost of each item is also displayed alongside each item description. Individual items can also be removed from the cart using the provided button.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ConfirmBooking.png}
+\caption{Wireframe for the page to confirm transaction details.}
+\label{fig:wireframe-traveller-confirm}
+\end{figure}
+
+Once a Traveller has reviewed the contents of their cart they can use the proceed with booking button to once again move forward with their transaction. At this point, if the user isn't already logged in they will be prompted to do so. If they do not have an account then they can make one. 
+
+Once they are authenticated onto the system they will then be directed to the page shown in figure \ref{fig:wireframe-traveller-confirm} where they can review their payment details before making the transaction. The total cost is again provided along with the name, card number and billing address. A button is also available for the user to easily edit their details should they wish.
+
+The final two wireframes, figures \ref{fig:wireframe-traveller-booked} and \ref{fig:wireframe-traveller-pending}, show what happens when the user presses the pay and book button the previous page depending on the hotel's model type. If they are using the allocation model, the booking is made and the Traveller is shown the booking confirmation page. Otherwise, if the hotel is using the referral model, the user is shown the pending page so they know that there transaction is complete but pending review from the hotel.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Booked.png}
+\caption{Wireframe for the page shown on a confirmed booking.}
+\label{fig:wireframe-traveller-booked}
+\end{figure}
+
+Both of these pages provide a clear review of what the customer has paid for and the details they use to make the purchase. These two page as designed to be definitive endpoint for the transaction process and therefore do not have any navigational elements available for the customer to "go back a step".
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/Pending.png}
+\caption{Wireframe for the page shown on a pending booking.}
+\label{fig:wireframe-traveller-pending}
+\end{figure}
 
 \section{Prototype}
 
 
-\section{Discussion}
+\section{Discussion of Accessibility Principles}
 \end{document}

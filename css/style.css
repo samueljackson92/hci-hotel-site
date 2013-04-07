@@ -63,7 +63,7 @@ table .button-link {font-size: 10pt; padding: 10px 30px 10px 30px;}
 
 .account-request-type,
 .item-cost, .total-cost	{font-weight: bold; width: inherit; margin:10px 0px 15px 0px;}
-#total-cost {text-align: center;}
+.total-cost {text-align: center;}
 .left 	{float: left;}
 .right 	{float: right;}
 
