@@ -166,6 +166,7 @@ In the middle of the screen, below the header and next to the menu is the sectio
 The first to wireframes show an overview of the design of the Traveller login and registration pages. Both of these page use a straight forward design, clearly displaying a form with a label identifying what input is expected in each field. At the bottom of each of the forms is a button of the user to submit the action to server. Again this is clearly labelled to tell the user exactly what action they will be performing when clicking it.
 
 \subsection{Client Login and Registration}
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{img/wireframes/ClientLogin.png}
@@ -182,12 +183,24 @@ The first to wireframes show an overview of the design of the Traveller login an
 
 The next two wireframes show the designs for the Client login and registration pages and a quite similar to the traveller login and registration pages, except that registration requires different fields. I have chosen to use a drop down menu for account type so as the clearly limit the options available to the user. Information about the what the types of model could be described in brief at the top of the page and possible in further detail on a help page. In actual development, when a client chooses which model they would like to apply for, if the allocation model is selected, I would expect an additional field to allow the user to input how many rooms they would like to be allocated to there account.
 
+Unlike a Traveller, when a Client clicks to register with the Hotel Booking site, they are not taken directly to view their account overview. Instead, because a site administrator needs to approve the request for registration, they are shown the "pending registration" page, informing them that they will be notified by email if their request is accepted or declined.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ClientRegister.png}
+\caption{Wireframe for Client registration page.}
+\label{fig:wireframe-client-register}
+\end{figure}
+
 \subsection{Administrator Login}
 The next wireframe for the administrator login follows suit of the other two, simply requiring the user to enter an email address and password to again access to their account. Note that administrators do not have a page for registration. It is assumed that they are allocated an account with the hotel booking site either through the site's server administration or by some other system.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Image of Admin Login Wireframe
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{img/wireframes/ClientPending.png}
+\caption{Wireframe for the Client registration pending page.}
+\label{fig:wireframe-client-pending}
+\end{figure}
 
 \subsection{Traveller Account Management}
 This wireframe shows the design for the travellers account management page. Like most pages, this design incorporates the name of the traveller at the top of the page just below the breadcrumb navigation element. It also contains a simple textual description of about what the user do on this page. The rest of the page is split into to forms separated by a field-set. The first form allows of editing the users billing address and the second allows for editing the payment card they have registered with their account.

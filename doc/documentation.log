@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  8 APR 2013 00:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  8 APR 2013 14:51
 entering extended mode
  %&-line parsing enabled.
 **documentation.tex
@@ -307,41 +307,46 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
- [2 <./img/richpic.png (PNG copy)>] <img/UseCase.png, id=91, 2559.5625pt x 3312
-.375pt>
+ [2 <./img/richpic.png (PNG copy)>] <img/UseCase.png, id=91, 2168.1pt x 2905.85
+625pt>
 File: img/UseCase.png Graphic file (type png)
 
-<use img/UseCase.png> [3] [4 <./img/UseCase.png (PNG copy)>] [5]
+<use img/UseCase.png> [3]
+Overfull \vbox (13.55704pt too high) has occurred while \output is active []
+
+
+[4 <./img/UseCase.png (PNG copy)>] [5]
 <img/dataflow.png, id=106, 3312.375pt x 2559.5625pt>
 File: img/dataflow.png Graphic file (type png)
  <use img/dataflow.png>
 [6
 
  <./img/dataflow.png (PNG copy)>]
-<img/state_diagrams/StateDiagramUserAuth.png, id=112, 2064.71375pt x 2097.8375p
+<img/state_diagrams/StateDiagramUserAuth.png, id=112, 1921.1775pt x 2028.57875p
 t>
 File: img/state_diagrams/StateDiagramUserAuth.png Graphic file (type png)
  <use img/state_diagrams/StateDiagramUserAuth.png> [7
 
  <./img/state_diagrams/StateDiagramUserAuth.png (PNG copy)>]
-<img/state_diagrams/StateTransitionClientManagement.png, id=120, 1577.895pt x 1
-240.635pt>
+<img/state_diagrams/StateTransitionClientManagement.png, id=120, 1535.7375pt x 
+1099.10625pt>
 File: img/state_diagrams/StateTransitionClientManagement.png Graphic file (type
  png)
  <use img/state_diagrams/StateTransitionClientManagement.png>
-[8 <./img/state_diagrams/StateTransitionClientManagement.png (PNG copy)>]
-<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=127, 1983.41pt x
+<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=122, 1983.41pt x
  2099.845pt>
 File: img/state_diagrams/StateTransitionDiagramUserPayement.png Graphic file (t
 ype png)
  <use img/state_diagrams/StateTransitionDiagramUserPayement.png>
+[8 <./img/state_diagrams/StateTransitionClientManagement.png (PNG copy)>]
 [9 <./img/state_diagrams/StateTransitionDiagramUserPayement.png (PNG copy)>]
 <img/wireframes/Login.png, id=135, 2714.14pt x 1543.7675pt>
 File: img/wireframes/Login.png Graphic file (type png)
 
 <use img/wireframes/Login.png>
-<img/wireframes/TravellerRegistration.png, id=136, 2725.18124pt x 2221.29875pt>
+<img/wireframes/TravellerRegistration.png, id=136, 2742.245pt x 2232.34pt>
 File: img/wireframes/TravellerRegistration.png Graphic file (type png)
+
 <use img/wireframes/TravellerRegistration.png> [10 <./img/wireframes/Login.png 
 (PNG copy)>]
 <img/wireframes/ClientLogin.png, id=143, 2725.18124pt x 1735.48375pt>
@@ -353,70 +358,78 @@ File: img/wireframes/ClientRegister.png Graphic file (type png)
 
 <use img/wireframes/ClientRegister.png> [11 <./img/wireframes/TravellerRegistra
 tion.png (PNG copy)> <./img/wireframes/ClientLogin.png (PNG copy)>]
-<img/wireframes/TravellerAccount.png, id=153, 2708.1175pt x 2028.57875pt>
+File: img/wireframes/ClientRegister.png Graphic file (type png)
+
+<use img/wireframes/ClientRegister.png> [12 <./img/wireframes/ClientRegister.pn
+g (PNG copy)>]
+<img/wireframes/ClientPending.png, id=159, 2725.18124pt x 2221.29875pt>
+File: img/wireframes/ClientPending.png Graphic file (type png)
+
+<use img/wireframes/ClientPending.png> [13]
+<img/wireframes/TravellerAccount.png, id=166, 2708.1175pt x 2028.57875pt>
 File: img/wireframes/TravellerAccount.png Graphic file (type png)
 
-<use img/wireframes/TravellerAccount.png> [12 <./img/wireframes/ClientRegister.
-png (PNG copy)>]
-<img/wireframes/ClientManagement.png, id=163, 2703.09875pt x 2034.60126pt>
+<use img/wireframes/TravellerAccount.png> [14 <./img/wireframes/ClientPending.p
+ng (PNG copy)>]
+<img/wireframes/ClientManagement.png, id=176, 2748.2675pt x 2068.72874pt>
 File: img/wireframes/ClientManagement.png Graphic file (type png)
 
-<use img/wireframes/ClientManagement.png> [13 <./img/wireframes/TravellerAccoun
+<use img/wireframes/ClientManagement.png> [15 <./img/wireframes/TravellerAccoun
 t.png (PNG copy)>]
-<img/wireframes/EditAvalibility.png, id=172, 2719.15875pt x 2056.68375pt>
+<img/wireframes/EditAvalibility.png, id=183, 2719.15875pt x 2056.68375pt>
 File: img/wireframes/EditAvalibility.png Graphic file (type png)
 
-<use img/wireframes/EditAvalibility.png> [14 <./img/wireframes/ClientManagement
+<use img/wireframes/EditAvalibility.png> [16 <./img/wireframes/ClientManagement
 .png (PNG copy)> <./img/wireframes/EditAvalibility.png (PNG copy)>]
-<img/wireframes/AddRoom.png, id=181, 2719.15875pt x 2045.6425pt>
+<img/wireframes/AddRoom.png, id=193, 2719.15875pt x 2045.6425pt>
 File: img/wireframes/AddRoom.png Graphic file (type png)
 
 <use img/wireframes/AddRoom.png>
-<img/wireframes/AddDate.png, id=182, 2731.20375pt x 2056.68375pt>
+<img/wireframes/AddDate.png, id=194, 2731.20375pt x 2056.68375pt>
 File: img/wireframes/AddDate.png Graphic file (type png)
 
-<use img/wireframes/AddDate.png> [15 <./img/wireframes/AddRoom.png (PNG copy)>]
-<img/wireframes/Administrator.png, id=189, 2714.14pt x 2034.60126pt>
+<use img/wireframes/AddDate.png> [17 <./img/wireframes/AddRoom.png (PNG copy)>]
+<img/wireframes/Administrator.png, id=201, 2714.14pt x 2034.60126pt>
 File: img/wireframes/Administrator.png Graphic file (type png)
 
-<use img/wireframes/Administrator.png> [16 <./img/wireframes/AddDate.png (PNG c
-opy)>] <img/wireframes/Search.png, id=196, 2714.14pt x 2028.57875pt>
+<use img/wireframes/Administrator.png> [18 <./img/wireframes/AddDate.png (PNG c
+opy)>] <img/wireframes/Search.png, id=208, 2714.14pt x 2028.57875pt>
 File: img/wireframes/Search.png Graphic file (type png)
 
-<use img/wireframes/Search.png> [17 <./img/wireframes/Administrator.png (PNG co
-py)>] <img/wireframes/Results.png, id=204, 2776.3725pt x 2023.56pt>
+<use img/wireframes/Search.png> [19 <./img/wireframes/Administrator.png (PNG co
+py)>] <img/wireframes/Results.png, id=217, 2776.3725pt x 2023.56pt>
 File: img/wireframes/Results.png Graphic file (type png)
 
-<use img/wireframes/Results.png> [18 <./img/wireframes/Search.png (PNG copy)>]
-<img/wireframes/Cart.png, id=212, 2748.2675pt x 2277.50874pt>
+<use img/wireframes/Results.png> [20 <./img/wireframes/Search.png (PNG copy)>]
+<img/wireframes/Cart.png, id=224, 2753.28625pt x 2266.4675pt>
 File: img/wireframes/Cart.png Graphic file (type png)
 
-<use img/wireframes/Cart.png> [19 <./img/wireframes/Results.png (PNG copy)>]
-<img/wireframes/ConfirmBooking.png, id=219, 2725.18124pt x 2040.62375pt>
+<use img/wireframes/Cart.png> [21 <./img/wireframes/Results.png (PNG copy)>]
+<img/wireframes/ConfirmBooking.png, id=231, 2725.18124pt x 2040.62375pt>
 File: img/wireframes/ConfirmBooking.png Graphic file (type png)
 
-<use img/wireframes/ConfirmBooking.png> [20 <./img/wireframes/Cart.png (PNG cop
+<use img/wireframes/ConfirmBooking.png> [22 <./img/wireframes/Cart.png (PNG cop
 y)> <./img/wireframes/ConfirmBooking.png (PNG copy)>]
-<img/wireframes/Booked.png, id=231, 2731.20375pt x 1785.67125pt>
+<img/wireframes/Booked.png, id=243, 2731.20375pt x 1785.67125pt>
 File: img/wireframes/Booked.png Graphic file (type png)
 
 <use img/wireframes/Booked.png>
-<img/wireframes/Pending.png, id=232, 2736.2225pt x 1780.6525pt>
+<img/wireframes/Pending.png, id=244, 2736.2225pt x 1780.6525pt>
 File: img/wireframes/Pending.png Graphic file (type png)
 
-<use img/wireframes/Pending.png> [21 <./img/wireframes/Booked.png (PNG copy)>]
-[22 <./img/wireframes/Pending.png (PNG copy)>] [23
+<use img/wireframes/Pending.png> [23 <./img/wireframes/Booked.png (PNG copy)>]
+[24 <./img/wireframes/Pending.png (PNG copy)>] [25
 
-] [24] (./documentation.aux)
+] [26] (./documentation.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4794 strings out of 495061
- 71774 string characters out of 1182622
- 144398 words of memory out of 3000000
- 7834 multiletter control sequences out of 15000+50000
+ 4805 strings out of 495061
+ 72027 string characters out of 1182622
+ 144461 words of memory out of 3000000
+ 7840 multiletter control sequences out of 15000+50000
  8232 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  38i,8n,36p,781b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -430,9 +443,9 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texm
 f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on documentation.pdf (24 pages, 2841676 bytes).
+Output written on documentation.pdf (26 pages, 2916864 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
