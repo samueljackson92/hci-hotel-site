@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  8 APR 2013 14:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.6)  11 APR 2013 11:51
 entering extended mode
  %&-line parsing enabled.
 **documentation.tex
@@ -194,6 +194,9 @@ LaTeX Warning: Label `fig:wireframe-client-register' multiply defined.
 
 LaTeX Warning: Label `fig:wireframe-client-register' multiply defined.
 
+
+LaTeX Warning: Label `fig:wireframe-client-register' multiply defined.
+
 )
 \openout1 = `documentation.aux'.
 
@@ -333,12 +336,12 @@ File: img/state_diagrams/StateDiagramUserAuth.png Graphic file (type png)
 File: img/state_diagrams/StateTransitionClientManagement.png Graphic file (type
  png)
  <use img/state_diagrams/StateTransitionClientManagement.png>
-<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=122, 1983.41pt x
+[8 <./img/state_diagrams/StateTransitionClientManagement.png (PNG copy)>]
+<img/state_diagrams/StateTransitionDiagramUserPayement.png, id=127, 1983.41pt x
  2099.845pt>
 File: img/state_diagrams/StateTransitionDiagramUserPayement.png Graphic file (t
 ype png)
  <use img/state_diagrams/StateTransitionDiagramUserPayement.png>
-[8 <./img/state_diagrams/StateTransitionClientManagement.png (PNG copy)>]
 [9 <./img/state_diagrams/StateTransitionDiagramUserPayement.png (PNG copy)>]
 <img/wireframes/Login.png, id=135, 2714.14pt x 1543.7675pt>
 File: img/wireframes/Login.png Graphic file (type png)
@@ -376,7 +379,7 @@ File: img/wireframes/ClientManagement.png Graphic file (type png)
 
 <use img/wireframes/ClientManagement.png> [15 <./img/wireframes/TravellerAccoun
 t.png (PNG copy)>]
-<img/wireframes/EditAvalibility.png, id=183, 2719.15875pt x 2056.68375pt>
+<img/wireframes/EditAvalibility.png, id=184, 2719.15875pt x 2056.68375pt>
 File: img/wireframes/EditAvalibility.png Graphic file (type png)
 
 <use img/wireframes/EditAvalibility.png> [16 <./img/wireframes/ClientManagement
@@ -401,7 +404,7 @@ py)>] <img/wireframes/Results.png, id=217, 2776.3725pt x 2023.56pt>
 File: img/wireframes/Results.png Graphic file (type png)
 
 <use img/wireframes/Results.png> [20 <./img/wireframes/Search.png (PNG copy)>]
-<img/wireframes/Cart.png, id=224, 2753.28625pt x 2266.4675pt>
+<img/wireframes/Cart.png, id=225, 2753.28625pt x 2266.4675pt>
 File: img/wireframes/Cart.png Graphic file (type png)
 
 <use img/wireframes/Cart.png> [21 <./img/wireframes/Results.png (PNG copy)>]
@@ -426,13 +429,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4805 strings out of 495061
- 72027 string characters out of 1182622
- 144461 words of memory out of 3000000
- 7840 multiletter control sequences out of 15000+50000
+ 4804 strings out of 495061
+ 72000 string characters out of 1182622
+ 144473 words of memory out of 3000000
+ 7839 multiletter control sequences out of 15000+50000
  8232 words of font info for 30 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,8n,36p,781b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,36p,767b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
@@ -443,7 +446,7 @@ sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texm
 f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on documentation.pdf (26 pages, 2916864 bytes).
+Output written on documentation.pdf (26 pages, 2917310 bytes).
 PDF statistics:
  324 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)
